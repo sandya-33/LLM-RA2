@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+  <div class="left-container">
+    <div class="new-chat-button">
+      <i class="fas fa-plus"></i> New Chat
+    </div>
+  </div>
+  <div class="chat-container">
+    <div class="chat-log">
+      <div class="message bot-message">
+        <p>Hello! How can I assist you today?</p>
+        <!--<div class="feedback-buttons">
+            <button class="like-button"><i class="fas fa-thumbs-up"></i></button>
+            <button class="dislike-button"><i class="fas fa-thumbs-down"></i></button>
+        </div>-->
+      </div>
+      <div class="message user-message">
+        
+      </div>
+    </div>
+    <div class="user-input">
+        <input type="text" id="user-input" placeholder="Type your message..." autofocus />
+        <button class="send-button" id="send-button"><i class="fas fa-paper-plane"></i></button>
+      </div>
+  </div>
+
+  <script src="send.js"></script>
+  <script src="edit.js"></script>
+  <script src="feedback.js"></script>
+  <script src="new chat.js"></script>
+</body>
+</html>
